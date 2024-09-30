@@ -10,7 +10,20 @@
             background-color: #f8f9fa;
             margin: 0;
             padding: 20px;
-        }
+            background-image: url('VVIT.jpeg'); 
+    background-size: 150%; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    animation: zoom-in 10s infinite alternate; 
+}
+@keyframes zoom-in {
+    from {
+        background-size: 150%; /* Start at 150% */
+    }
+    to {
+        background-size: 100%; /* End at 100% */
+    }
+}
         h2 {
             color: #343a40;
             text-align: center;
